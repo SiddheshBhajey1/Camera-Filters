@@ -3,7 +3,7 @@ Camera filters and add text functionality with sharing on social media option.
 
 Steps to run the application:
 1. Create xcode project by giving any name.
-2. In project target, in Signing & Capabilities add your team and bundle identifier.
+2. In project target, in Signing & Capabilities add your team and bundle identifier. Also select only Portrait mode for iPhone & iPad in orientation.
 3. Right click on Info.plist & select Open As -> Source code
 4. Add below code after the end of UIApplicationSceneManifest dict or you can directly replace your Info.plist file with the one present in this project:
 
