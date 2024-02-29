@@ -94,6 +94,9 @@ class SecondViewController: UIViewController {
 
     //MARK: - Filter 1 action
     @IBAction func filter1Action(_ sender: Any) {
+        if !textField.isHidden {
+            textField.isHidden = true
+        }
         guard let image = originalImage else {
             return
         }
@@ -103,6 +106,9 @@ class SecondViewController: UIViewController {
 
     //MARK: - Filter 2 action
     @IBAction func filter2Action(_ sender: Any) {
+        if !textField.isHidden {
+            textField.isHidden = true
+        }
         guard let image = originalImage else {
             return
         }
