@@ -6,10 +6,12 @@ Steps to run the application:
 2. In project target, in Signing & Capabilities add your team and bundle identifier.
 3. Right click on Info.plist & select Open As -> Source code
 4. Add below code after the end of UIApplicationSceneManifest dict or you can directly replace your Info.plist file with the one present in this project:
+
     <key>NSCameraUsageDescription</key>
     <string>Please allow access to take a picture</string>
     <key>NSPhotoLibraryAddUsageDescription</key>
     <string>Please allow access to save photo in your photo library</string>
+
 5. Add/Replace files in your project with all the files present in this project such as FilterModel, ViewController, SecondViewController, Main.storyboard and LaunchScreen.storyboard.
 6. Add image files in your assets from the assets present in this project.
 7. Build your project.
